@@ -1,0 +1,59 @@
+body {
+  font-family: "Sofia Sans", sans-serif;
+}
+hr {
+  border: 2px solid #f05454;
+  border-radius: 25px;
+  color: #f05454;
+  opacity: 100%;
+  margin: 0 auto;
+}
+
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 16px;
+}
+.weather-app {
+  padding-top: 25px;
+  border-radius: 25px;
+  background-color: #f5f5f5;
+  max-width: 800px;
+}
+
+.form-control {
+  border: none;
+}
+
+.search-button {
+  background-color: #f05454;
+  transition: background-color 0.5s;
+  color: #f5f5f5;
+}
+
+.search-button:hover {
+  background-color: #30475e;
+  color: #f05454;
+}
+
+.city-search {
+  padding: 25px;
+}
+
+.today-weather {
+  text-align: center;
+  color: #30475e;
+  padding: 25px;
+}
+
+.today-icon {
+  font-size: 50px;
+}
+
+.week-weather {
+  font-size: 35px;
+  border-radius: 25px;
+  padding: 25px;
+  color: #30475e;
+}
